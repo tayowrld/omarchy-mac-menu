@@ -1,48 +1,47 @@
 # Full-featured omarchy menu for aarch64
 
-*Made with love for omarchy and omarchy-mac fork*
+*Made with love for omarchy and the omarchy-mac fork*
 
-| Tested on                           | Results                                  |
-| ----------------------------------- | ---------------------------------------- |
-| **MacBook Pro 16 (M1 Max \| 32GB)** | Total performance, everything works fine |
+| Tested on                          | Results                                      |
+| ---------------------------------- | -------------------------------------------- |
+| **MacBook Pro 16 (M1 Max | 32GB)** | Excellent performance, everything works fine |
 
 ### What and why changed?
 
-Walker is a great and elastic software, but not on *aarch64* architecture. Omarchy menu is originally built under this frontend. That caused bugs, like cancel-loop, visual glitches, performance issues and dumb cropped functional.
+Walker is a great and flexible piece of software, but not on *aarch64* architecture. The Omarchy menu was originally built under this frontend, which caused bugs such as cancel-loops, visual glitches, performance issues, and limited functionality.
 
-I've retranslated calls from omarchy backend to fuzzel frontend and this solved most of problems, if not everything. **The important thing it's not official change and not supported by omarchy (so as omarchy aarch64)**. You will need to save and keep the omarchy-menu backup. Also it could be overwritten after updating omarchy.
+I retranslated calls from the Omarchy backend to the Fuzzel frontend, and this solved most problems, if not all. **The important thing is that this is not an official change and is not supported by Omarchy (or Omarchy aarch64).** You will need to save and keep an Omarchy-menu backup, as it could be overwritten after updating Omarchy.
 
-**I don't afford you to use this utility. All changes in the original bin files are at your own risk. I can only read your issues and try to fix em.**
+**I do not recommend you to use this utility. All changes to the original bin files are at your own risk. I can only read your issues and try to fix them.**
 
 ### DEPENDENCIES
 
 ```bash
 sudo pacman -S fuzzel
-
 ```
 
-- Omarchy also must be already installed. I used this fork and it worked great for me on a mac: https://github.com/malik-na/omarchy-mac
-- For non-mac it's recommended to use armarchy or other forks
+* Omarchy must also already be installed. I used this fork and it worked great for me on a Mac: [https://github.com/malik-na/omarchy-mac](https://github.com/malik-na/omarchy-mac)
+* For non-Mac systems, it is recommended to use Armarchy or other forks.
 
-### MANUAL INSTALLATION STEPS 
+### MANUAL INSTALLATION STEPS
 
-- ***IMPORTANT: COVER YOUR BACKUPS FOR ORIGINAL OMARCHY-MENU FUZZEL CONFIG (if it exists)***
+* ***IMPORTANT: BACK UP YOUR ORIGINAL OMARCHY-MENU FUZZEL CONFIG (if it exists)***
 
-  you can do it simply running this: (never use sudo there, if you got this mania)
+  You can do this simply by running: (never use sudo here, if you have that habit)
 
   ```bash
   mv ~/.config/fuzzel/ ~/.config/fuzzel.bak
   cp ~/.local/share/omarchy/bin/ ~/.local/share/omarchy/bin.bak
   ```
 
-- Go to Home dir (or git dir) and clone this repo
+* Go to your home directory (or any working directory) and clone this repo:
 
   ```bash
   cd ~
   git clone https://github.com/tayowrld/omarchy-mac-menu/
   ```
 
-- Get inside and copy files like this
+* Enter the folder and copy the files like this:
 
   ```bash
   cd omarchy-mac-menu
@@ -50,15 +49,15 @@ sudo pacman -S fuzzel
   cp -r fuzzel ~/.config
   ```
 
-- You can now delete the git clone (or skip this step)
+* You can now delete the cloned repo (or skip this step):
 
-  ```
+  ```bash
   cd ..
   rm -rf omarchy-mac-menu
   ```
 
-  And you're up to go. Try to run ```omarchy-menu``` using terminal and see changes. If it's changed, but keybind SUPER+ALT+SPACE still shows walker, try to reboot or log out and enter the session again. If nothing changed, try to recover backups and do everything again. If I'm wrong in the manual, pull issue.
+  And you're good to go. Try running `omarchy-menu` in the terminal and check the changes. If it has changed but the SUPER+ALT+SPACE keybind still launches Walker, try rebooting or logging out and back in. If nothing has changed, restore the backups and repeat the steps. If I made a mistake in the manual, open an issue.
 
 ### AFTERWORDS
 
-Thank you for your attention. If you got any bugs, you always can open an issue and I'll fix it. The enhancement and update are also greeted. Have a good time with omarchy and it's community.
+Thank you for your attention. If you encounter any bugs, you can always open an issue and I will fix them. Enhancements and updates are also welcome. Have a good time with Omarchy and its community.
