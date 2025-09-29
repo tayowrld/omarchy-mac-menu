@@ -34,7 +34,6 @@ sudo pacman -S fuzzel
   sh manage-mac-menu.sh
 ```
 
-You can move the script to your isolated bin directory, for example ```~/.local/bin/``` and use the update option.
 It would clone the repository and auto-install all the components.
 
 ### MANUAL INSTALLATION STEPS
