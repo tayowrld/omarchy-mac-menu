@@ -45,7 +45,7 @@ sudo pacman -S fuzzel
 
   ```bash
   cd omarchy-mac-menu
-  cp -R omarchy-* ~/.local/share/omarchy/bin/
+  cp -R ./omarchy/bin/omarchy-* ~/.local/share/omarchy/bin/
   cp -rf fuzzel ~/.config
   ```
 
