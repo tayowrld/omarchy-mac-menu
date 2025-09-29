@@ -45,8 +45,8 @@ sudo pacman -S fuzzel
 
   ```bash
   cd omarchy-mac-menu
-  cp -rf omarchy-menu ~/.local/share/omarchy/bin/omarchy-menu
-  cp -r fuzzel ~/.config
+  cp -R omarchy-* ~/.local/share/omarchy/bin/
+  cp -rf fuzzel ~/.config
   ```
 
 * You can now delete the cloned repo (or skip this step):
