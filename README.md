@@ -23,6 +23,19 @@ sudo pacman -S fuzzel
 * Omarchy must also already be installed. I used this fork and it worked great for me on a Mac: [https://github.com/malik-na/omarchy-mac](https://github.com/malik-na/omarchy-mac)
 * For non-Mac systems, it is recommended to use Armarchy or other forks.
 
+### AUTOMATIC INSTALLATION
+
+**Requires ```git, rsync```**
+
+```bash
+  cd ~
+  git clone https://github.com/tayowrld/omarchy-mac-menu/
+  cd omarchy-mac-menu
+  sh manage-mac-menu.sh
+```
+
+You can move the script to your isolated bin directory, for example ```~/.local/bin/``` and use the update option.
+It would clone the repository and auto-install all the components.
 
 ### MANUAL INSTALLATION STEPS
 
@@ -57,7 +70,7 @@ sudo pacman -S fuzzel
   rm -rf omarchy-mac-menu
   ```
 
-  And you're good to go. Try running `omarchy-menu` in the terminal and check the changes. If it has changed but the SUPER+ALT+SPACE keybind still launches Walker, try rebooting or logging out and back in. If nothing has changed, restore the backups and repeat the steps. If I made a mistake in the manual, open an issue.
+And you're good to go. Try running `omarchy-menu` in the terminal and check the changes. If it has changed but the SUPER+ALT+SPACE keybind still launches Walker, try rebooting or logging out and back in. If nothing has changed, restore the backups and repeat the steps. If I made a mistake in the manual, open an issue.
 
 ### AFTERWORDS
 
