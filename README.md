@@ -23,6 +23,7 @@ sudo pacman -S fuzzel
 * Omarchy must also already be installed. I used this fork and it worked great for me on a Mac: [https://github.com/malik-na/omarchy-mac](https://github.com/malik-na/omarchy-mac)
 * For non-Mac systems, it is recommended to use Armarchy or other forks.
 
+
 ### MANUAL INSTALLATION STEPS
 
 * ***IMPORTANT: BACK UP YOUR ORIGINAL OMARCHY-MENU FUZZEL CONFIG (if it exists)***
