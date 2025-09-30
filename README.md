@@ -1,6 +1,12 @@
 # Full-featured omarchy menu for aarch64
+<pre style="font-size:34px">
+        ░▀█▀░█▀█░█░█░█▀█░█░█░█▀▄░█░░░█▀▄
+        ░░█░░█▀█░░█░░█░█░█▄█░█▀▄░█░░░█░█
+        ░░▀░░▀░▀░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀▀░ 's
 
 *Made with love for omarchy and the omarchy-mac fork*
+</pre>
+
 
 | Tested on                      | Performance |
 | ------------------------------ | ----------- |
@@ -15,7 +21,9 @@ I retranslated calls from the Omarchy backend to the Fuzzel frontend, and this s
 
 **I do not recommend you to use this utility. All changes to the original bin files are at your own risk. I can only read your issues and try to fix them.**
 
-### DEPENDENCIES
+░█▀▄░█▀▀░█▀█░█▀▀░█▀█░█▀▄░█▀▀░█▀█░█▀▀░▀█▀░█▀▀░█▀▀
+░█░█░█▀▀░█▀▀░█▀▀░█░█░█░█░█▀▀░█░█░█░░░░█░░█▀▀░▀▀█
+░▀▀░░▀▀▀░▀░░░▀▀▀░▀░▀░▀▀░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀▀▀░▀▀▀
 
 ```bash
 sudo pacman -S fuzzel
@@ -24,7 +32,9 @@ sudo pacman -S fuzzel
 * Omarchy must also already be installed. I used this fork and it worked great for me on a Mac: [https://github.com/malik-na/omarchy-mac](https://github.com/malik-na/omarchy-mac)
 * For non-Mac systems, it is recommended to use Armarchy or other forks.
 
-### AUTOMATIC INSTALLATION
+░█▀█░█░█░▀█▀░█▀█░░░░░█░░░█▀█░▀█▀░▀█▀░█▀█░█▀█
+░█▀█░█░█░░█░░█░█░▄▄▄░█░░░█▀█░░█░░░█░░█░█░█░█
+░▀░▀░▀▀▀░░▀░░▀▀▀░░░░░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀
 
 **Requires ```git, rsync```**
 
@@ -37,7 +47,9 @@ sudo pacman -S fuzzel
 
 It would clone the repository and auto-install all the components.
 
-### MANUAL INSTALLATION STEPS
+░█▄█░█▀█░█▀█░█░█░░░░░█░░░█▀█░▀█▀░▀█▀░█▀█░█▀█
+░█░█░█▀█░█░█░█░█░▄▄▄░█░░░█▀█░░█░░░█░░█░█░█░█
+░▀░▀░▀░▀░▀░▀░▀▀▀░░░░░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀
 
 * ***IMPORTANT: BACK UP YOUR ORIGINAL OMARCHY-MENU FUZZEL CONFIG (if it exists)***
 
