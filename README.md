@@ -5,6 +5,7 @@
 | Tested on                      | Results                                      |
 | ------------------------------ | -------------------------------------------- |
 | MacBook Pro 16 (M1 Max / 32GB) | Excellent performance, everything works fine |
+| MacBook Air (M1 / 8GB)         | Excellent performance, everything works fine |
 
 ### What and why changed?
 
