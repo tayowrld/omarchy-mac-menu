@@ -2,10 +2,10 @@
 
 *Made with love for omarchy and the omarchy-mac fork*
 
-| Tested on                      | Results                                      |
-| ------------------------------ | -------------------------------------------- |
-| MacBook Pro 16 (M1 Max / 32GB) | Excellent performance, everything works fine |
-| MacBook Air (M1 / 8GB)         | Excellent performance, everything works fine |
+| Tested on                      | Performance |
+| ------------------------------ | ----------- |
+| MacBook Pro 16 (M1 Max / 32GB) | Fine        |
+| MacBook Air (M1 / 8GB)         | Fine        |
 
 ### What and why changed?
 
