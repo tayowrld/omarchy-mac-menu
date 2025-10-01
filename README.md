@@ -1,12 +1,15 @@
-# Full-featured omarchy menu for aarch64
 <pre style="font-size:34px">
         ░▀█▀░█▀█░█░█░█▀█░█░█░█▀▄░█░░░█▀▄
         ░░█░░█▀█░░█░░█░█░█▄█░█▀▄░█░░░█░█
         ░░▀░░▀░▀░░▀░░▀▀▀░▀░▀░▀░▀░▀▀▀░▀▀░ 's
-
+                 OMARCHY MAC MENU
 *Made with love for omarchy and the omarchy-mac fork*
 </pre>
 
+### GALLERY
+<img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/1.jpg?raw=true" style="width:33%"/>
+<img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/2.jpg?raw=true" style="width:33%"/>
+<img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/3.jpg?raw=true" style="width:33%"/>
 
 | Tested on                      | Performance |
 | ------------------------------ | ----------- |
