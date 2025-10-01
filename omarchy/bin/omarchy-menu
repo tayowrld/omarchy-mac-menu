@@ -77,11 +77,7 @@ menu() {
   # --dmenu — get from stdin and selected to stdout
   # --prompt — request header
   # --width - window's width (if empty, fuzzel would set default)
-  local args=(--dmenu --prompt ">‎‎")
-  [[ -n "$width" ]] && args+=(--width "$width")
-
-  # placeholder
-  args+=(--placeholder "‎‎  Pick the pack")
+  local args=(--dmenu --width 20 --placeholder "Go...")
 
   # Start. Fuzzel returns empty stroke on esc/cancel
   local choice
@@ -221,10 +217,19 @@ show_font_menu() {
 }
 
 show_setup_menu() {
-  local options="  Audio\n  Wifi\n󰂯  Bluetooth\n󱐋  Power Profile\n󰍹  Monitors"
-  [[ -f ~/.config/hypr/bindings.conf ]] && options="$options"$'\n'"  Keybindings"
-  [[ -f ~/.config/hypr/input.conf ]] && options="$options"$'\n'"  Input"
-  options="$options"$'\n'"  Defaults\n󰱔  DNS\n  Security\n  Config"
+  local options="  Audio"
+  options+=$'\n'"  Wifi"
+  options+=$'\n'"󰂯  Bluetooth"
+  options+=$'\n'"󱐋  Power Profile"
+  options+=$'\n'"󰍹  Monitors"
+
+  [[ -f ~/.config/hypr/bindings.conf ]] && options+=$'\n'"  Keybindings"
+  [[ -f ~/.config/hypr/input.conf ]] && options+=$'\n'"  Input"
+
+  options+=$'\n'"  Defaults"
+  options+=$'\n'"󰱔  DNS"
+  options+=$'\n'"  Security"
+  options+=$'\n'"  Config"
 
   case "$(menu "Setup" "$options")" in
   *Audio*) $TERMINAL --class=Wiremix -e wiremix ;;
