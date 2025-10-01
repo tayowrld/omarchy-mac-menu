@@ -8,9 +8,9 @@
 
 ### GALLERY
 <div>
-  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/1.jpg?raw=true" style="width:33%"/>
-  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/2.jpg?raw=true" style="width:33%"/>
-  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/3.jpg?raw=true" style="width:33%"/>
+  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/1.jpg?raw=true" style="width:48%"/>
+  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/2.jpg?raw=true" style="width:48%"/>
+  <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/3.jpg?raw=true" style="width:67%"/>
 </div>
 | Tested on                      | Performance |
 | ------------------------------ | ----------- |
