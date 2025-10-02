@@ -13,6 +13,10 @@
   <img src="https://github.com/tayowrld/omarchy-mac-menu/blob/main/assets/3.jpg?raw=true" style="width:67%"/>
 </div>
 
+### OMARCHY MAC MENU IS PRE INSTALLED ON OMARCHY-MAC ALREADY
+#### The layout would be updated just in time. This repository is could be useful for other architectures
+#### If you use AS Mac, then it would be better if you use the same fork. Than it would be an integration
+#### with whole omarchy ecosystem
 
 | Tested on                      | Performance |
 | ------------------------------ | ----------- |
