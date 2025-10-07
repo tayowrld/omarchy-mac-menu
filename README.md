@@ -16,7 +16,7 @@
 
 -------------------
 ### OMARCHY MAC MENU IS PRE INSTALLED ON OMARCHY-MAC ALREADY
-#### The layout would be updated just in time. This repository is could be useful for other architectures <br> If you use AS Mac, then it would be better if you use the same fork. Than it would be an integration <br> with whole omarchy ecosystem
+#### The layout would be updated just in time. This repository is could be useful for other projects <br> If you use AS Mac, then it would be better if you use the same fork
 -------------------
 
 | Tested on                      | Performance |
